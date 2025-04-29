@@ -1,0 +1,1 @@
+exec insertarUsuario @DNI = 43795516, @nombres = 'Esteban Álvarez', @telefono = '2364240308', @mail = 'em.alvarez020@gmail.com', @username = 'ascenacuario_', @contrasena = 'F.1.atyUmika', @rol_id = 3 
