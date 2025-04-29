@@ -5,3 +5,5 @@ exec insertEspecialidad @especialidad = 'neonatología';
 exec insertMedico @id_usuario = 6, @id_especialidad = 6
 
 exec insertPaciente @id_usuario = 1
+
+exec verPagos
