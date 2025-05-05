@@ -2,8 +2,8 @@ CREATE PROCEDURE VerPacientesConTurno
     @id_usuario INT  
 AS
 BEGIN
-    SELECT td.fecha_turno AS 'Fecha del Turno',up.nombre AS 'Nombre del Paciente',up.DNI,up.telefono,up.mail
-    FROM Medicos m,turnos_disponibles td,turnos_asignados ta,Pacientes p,Usuarios up
+	SELECT td.fecha_turno AS 'Fecha del Turno',up.nombres AS 'Paciente',up.DNI AS 'DNI',up.telefono AS'Telefono',up.mail AS 'Email'
+FROM Medicos m,turnos_disponibles td,turnos_asignados ta,Pacientes p,Usuarios up
     WHERE 
         m.id_usuario = @id_usuario
         AND m.id_medico = td.id_medico
