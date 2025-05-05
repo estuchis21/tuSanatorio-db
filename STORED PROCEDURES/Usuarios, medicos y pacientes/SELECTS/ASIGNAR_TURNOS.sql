@@ -3,7 +3,7 @@ CREATE PROCEDURE AsignarTurno
 	@id_turno INT
 AS
 BEGIN
-	SELECT
+	SELECT td.fecha_turno as'Fecah del turno', um.nombres as 'Medico', e.especialidad as 'Especialidad'
 	FROM turnos_disponibles td, Medicos m , Usuarios um ,especialidades e
 	WHERE td.id_turno= @id_turno
 	AND	td.id_medico= m.id_medico
