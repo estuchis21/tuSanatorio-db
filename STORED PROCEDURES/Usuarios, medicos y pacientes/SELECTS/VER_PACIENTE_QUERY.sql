@@ -1,6 +1,6 @@
 /*QUERY Ver sus turnos agendados.*/
 CREATE PROCEDURE MisTurnos
-    @id_usuario INT(50)
+    @id_usuario INT
 AS
 BEGIN
     SELECT ta.fecha_asignacion AS 'Mis Turnos'
