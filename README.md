@@ -44,4 +44,4 @@ Obtiene los turnos de los pacientes que tengan pendientes a la fecha
 1. Abrir SQL Server Management Studio (SSMS).
 2. Conectarse a la base de datos correspondiente.
 3. Ejecutar los scripts para crear cada stored procedure si no están creados.
-4. Llamar a los SPs desde el backend o directamente desde SSMS ejecutando el archivo 'ejecucionesTest.sql' ubicado en 'tuSanatorio-db\STORED PROCEDURES\Ejecuciones\ejecucionesTest.sql'
+4. Llamar a los SPs desde el backend.
