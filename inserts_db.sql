@@ -64,7 +64,7 @@ INSERT INTO Turnos_disponibles (id_medico, id_rango, fecha_turno) VALUES
 
 
 INSERT INTO Turnos_asignados (id_turno, id_paciente, id_obra_social) VALUES
-(3, 1, 1),
+(52, 1, 1),
 (4, 2, 2),
 (5, 3, 3),
 (6, 4, 4),
