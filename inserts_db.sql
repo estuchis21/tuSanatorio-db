@@ -49,11 +49,7 @@ INSERT INTO Rangos (hora_inicio, hora_fin) VALUES
 
 
 INSERT INTO Turnos_disponibles (id_medico, id_rango, fecha_turno) VALUES
-(4, 1, '2025-05-24'),
-(5, 2, '2025-05-24'),
-(5, 3, '2025-05-25'),
-(4, 4, '2025-05-25'),
-(6, 5, '2025-05-26')
+(6, 1, '2025-05-24')
 
 
 
@@ -96,3 +92,4 @@ INSERT INTO Pagos (id_turno_asignado, id_medio_pago, monto) VALUES
 (8, 8, 2100.00),
 (9, 9, 1950.00),
 (10, 10, 2050.00);
+
