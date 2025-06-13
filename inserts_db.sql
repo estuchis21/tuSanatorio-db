@@ -3,17 +3,12 @@ INSERT INTO Roles (rol) VALUES
 ('Paciente'),
 ('Médico');
 
-INSERT INTO Usuarios (nombres, apellido, dni, email, contrasena, telefono, direccion, fecha_nacimiento, id_rol) VALUES 
-('Juan', 'Pérez', '12345678', 'juan.perez@mail.com', '1234', '123456789', 'Calle Falsa 123', '1980-05-10', 3),
-('Ana', 'Gómez', '23456789', 'ana.gomez@mail.com', '1234', '234567890', 'Av. Siempreviva 742', '1990-07-20', 3),
-('Carlos', 'López', '34567890', 'carlos.lopez@mail.com', '1234', '345678901', 'Calle Real 456', '1985-09-15', 3),
-('Lucía', 'Martínez', '45678901', 'lucia.martinez@mail.com', '1234', '456789012', 'Diagonal 111', '1992-11-25', 2),
-('Pedro', 'Sánchez', '56789012', 'pedro.sanchez@mail.com', '1234', '567890123', 'Av. Corrientes 300', '2000-01-05', 2),
-('María', 'Díaz', '67890123', 'maria.diaz@mail.com', '1234', '678901234', 'Mitre 111', '1988-03-30', 2),
-('Roberto', 'Fernández', '78901234', 'roberto.fernandez@mail.com', '1234', '789012345', 'Maipú 888', '1975-12-12', 2),
-('Elena', 'Ruiz', '89012345', 'elena.ruiz@mail.com', '1234', '890123456', 'Libertad 555', '1982-06-06', 3),
-('Sofía', 'Silva', '90123456', 'sofia.silva@mail.com', '1234', '901234567', 'San Martín 101', '1995-10-10', 2),
-('Diego', 'Méndez', '01234567', 'diego.mendez@mail.com', '1234', '012345678', 'Belgrano 202', '1999-04-18', 2);
+INSERT INTO Usuarios (nombres, apellido, DNI, email, contrasena, username, telefono, id_rol) VALUES
+('Esteban', 'Álvarez', '12345678', 'esteban.alvarez@mail.com', 'pass1234', 'estalvarez', '1122334455', 1),
+('María', 'Gómez', '23456789', 'maria.gomez@mail.com', 'maria2025', 'mgomez', '1166778899', 2),
+('Juan', 'Pérez', '34567890', 'juan.perez@mail.com', 'juanpass', 'jperez', '1199887766', 2),
+('Laura', 'Rodríguez', '45678901', 'laura.rodriguez@mail.com', 'laura2025', 'lrodriguez', '1144556677', 3);
+
 
 INSERT INTO especialidades (nombre) VALUES
 ('Cardiología'),
