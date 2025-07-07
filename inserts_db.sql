@@ -49,22 +49,13 @@ INSERT INTO Rangos (hora_inicio, hora_fin) VALUES
 
 
 INSERT INTO Turnos_disponibles (id_medico, id_rango, fecha_turno) VALUES
-(6, 1, '2025-05-24')
+(7, 6, GETDATE())
 
 
 
 
 INSERT INTO Turnos_asignados (id_turno, id_paciente, id_obra_social) VALUES
-(52, 1, 1),
-(4, 2, 2),
-(5, 3, 3),
-(6, 4, 4),
-(7, 5, 5),
-(6, 1, 6),
-(7, 1, 7),
-(6, 2, 8),
-(3, 3, 9),
-(4, 4, 10)
+(5, 6, 1)
 
 
 INSERT INTO Medio_pago (medio_pago) VALUES
