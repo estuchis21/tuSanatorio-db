@@ -49,7 +49,7 @@ INSERT INTO Rangos (hora_inicio, hora_fin) VALUES
 
 
 INSERT INTO Turnos_disponibles (id_medico, id_rango, fecha_turno) VALUES
-(7, 1, GETDATE())
+(9, 1, GETDATE())
 
 
 
