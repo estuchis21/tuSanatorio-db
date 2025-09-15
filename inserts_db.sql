@@ -52,7 +52,7 @@ INSERT INTO Turnos_disponibles (id_medico, id_rango, fecha_turno) VALUES
 (9, 1, GETDATE())
 
 insert into Medicos_ObrasSociales (id_medico, id_obra_social, fecha_registro)
-values (9, 3, GETDATE());
+values (9, 6, GETDATE());
 
 INSERT INTO Turnos_asignados (id_turno, id_paciente, id_obra_social) VALUES
 (29, 6, 1)
