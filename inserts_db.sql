@@ -47,15 +47,56 @@ INSERT INTO Rangos (hora_inicio, hora_fin) VALUES
 ('13:00:00', '13:30:00'),
 ('13:30:00', '14:00:00');
 
+SELECT * 
+FROM Turnos_asignados
+WHERE id_paciente = 6;
+
+SELECT *
+FROM TurnosDescartados td
+INNER JOIN Rangos r ON r.id_rango = td.id_rango
+WHERE td.id_turno IN (SELECT id_turno FROM Turnos_asignados WHERE id_paciente = 6);
+
+
+EXEC MisTurnosHistoricos @id_paciente = 6;
+
+
+
 
 INSERT INTO Turnos_disponibles (id_medico, id_rango, fecha_turno) VALUES
-(9, 1, GETDATE())
+(9, 1, getdate())
 
 insert into Medicos_ObrasSociales (id_medico, id_obra_social, fecha_registro)
 values (9, 6, GETDATE());
 
 INSERT INTO Turnos_asignados (id_turno, id_paciente, id_obra_social) VALUES
-(29, 6, 1)
+(68, 6, 1)
+
+
+
+-- Turno disponible / descartado
+INSERT INTO TurnosDescartados (id_turno, id_medico, id_rango, fecha_turno)
+VALUES (63, 1, 1, '2025-08-10');
+
+-- Turno asignado a paciente
+INSERT INTO Turnos_asignados (id_turno, id_paciente, id_obra_social, fecha_asignacion)
+VALUES (9, 6, 1, GETDATE());
+
+
+USE tuSanatorio;
+GO
+
+INSERT INTO Turnos_asignados (
+    id_paciente,
+    id_turno,
+    fecha_asignacion
+)
+VALUES (
+    1,                     -- id_paciente (ejemplo)
+    10,                    -- id_turno (ejemplo)
+    '2025-08-20'           -- fecha_asignacion
+);
+GO
+
 
 
 INSERT INTO Medio_pago (medio_pago) VALUES
