@@ -60,10 +60,10 @@ WHERE td.id_turno IN (SELECT id_turno FROM Turnos_asignados WHERE id_paciente = 
 EXEC MisTurnosHistoricos @id_paciente = 6;
 
 
-
+exec actualizarPerfil @email = 'micaelavega_@gmail.com', @id_usuario = 52
 
 INSERT INTO Turnos_disponibles (id_medico, id_rango, fecha_turno) VALUES
-(9, 1, getdate())
+(9, 1, '2025-05-02')
 
 insert into Medicos_ObrasSociales (id_medico, id_obra_social, fecha_registro)
 values (9, 6, GETDATE());
