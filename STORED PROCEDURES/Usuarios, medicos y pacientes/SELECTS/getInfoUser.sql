@@ -1,4 +1,4 @@
-CREATE PROCEDURE obtenerDatosUsuario
+﻿CREATE PROCEDURE obtenerDatosUsuario
 @id_paciente int
 
 as
@@ -11,3 +11,4 @@ begin
 
 end
 go
+

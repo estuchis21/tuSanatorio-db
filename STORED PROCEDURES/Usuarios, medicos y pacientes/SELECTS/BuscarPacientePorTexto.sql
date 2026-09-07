@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE BuscarPacientePorTexto
+﻿CREATE OR ALTER PROCEDURE BuscarPacientePorTexto
 @texto VARCHAR(400)
 
 AS
@@ -12,3 +12,4 @@ BEGIN
 
 END
 GO
+

@@ -1,4 +1,4 @@
-create or alter procedure getHistoriasPorPaciente
+﻿create or alter procedure getHistoriasPorPaciente
 
 @id_paciente int
 
@@ -15,4 +15,6 @@ begin
 
 end
 go
+
+
 

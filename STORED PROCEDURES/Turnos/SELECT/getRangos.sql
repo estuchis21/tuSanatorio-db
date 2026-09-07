@@ -1,4 +1,4 @@
-CREATE or alter PROCEDURE GetRangos
+﻿CREATE or alter PROCEDURE GetRangos
 AS
 BEGIN
     SET NOCOUNT ON;
@@ -11,4 +11,6 @@ BEGIN
     ORDER BY hora_inicio;
 END
 go
+
+
 

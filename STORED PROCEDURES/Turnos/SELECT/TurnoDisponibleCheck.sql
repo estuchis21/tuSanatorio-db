@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE TurnoDisponibleCheck
+﻿CREATE OR ALTER PROCEDURE TurnoDisponibleCheck
 	@id_turno int
 	as
 	begin
@@ -7,3 +7,5 @@ CREATE OR ALTER PROCEDURE TurnoDisponibleCheck
 
 	end 
 	go
+
+

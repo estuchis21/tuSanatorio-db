@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE verPacientePorIdUsuario
+﻿CREATE OR ALTER PROCEDURE verPacientePorIdUsuario
 @id_usuario int
 as
 begin
@@ -6,3 +6,4 @@ begin
 	SELECT id_paciente FROM Pacientes WHERE id_usuario = @id_usuario
 end
 go
+

@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE [dbo].[ModificarTurno]
+﻿CREATE OR ALTER PROCEDURE [dbo].[ModificarTurno]
     @id_turno_asignado INT,
     @id_nuevo_turno INT,
     @id_paciente INT,
@@ -17,7 +17,7 @@ BEGIN
 
     IF @id_turno_viejo IS NULL
     BEGIN
-        PRINT 'No se encontr� un turno asignado para el paciente.';
+        PRINT 'No se encontrÃ³ un turno asignado para el paciente.';
         RETURN;
     END
 
@@ -42,3 +42,5 @@ BEGIN
 
     PRINT 'Turno modificado correctamente.';
 END;
+
+

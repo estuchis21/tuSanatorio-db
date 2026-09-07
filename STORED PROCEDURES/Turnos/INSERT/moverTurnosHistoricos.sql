@@ -1,4 +1,4 @@
-USE [tuSanatorio]
+﻿USE [tuSanatorio]
 GO
 
 IF OBJECT_ID('dbo.sp_MoverTurnosHistoricos', 'P') IS NOT NULL
@@ -40,3 +40,5 @@ BEGIN
     WHERE td.fecha_turno <= GETDATE();
 END
 GO
+
+

@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE getHistoriasPorMedico
+﻿CREATE OR ALTER PROCEDURE getHistoriasPorMedico
 
 @id_medico int
 
@@ -15,3 +15,4 @@ begin
 
 end
 go
+

@@ -1,9 +1,9 @@
-CREATE PROCEDURE insertRol
+﻿CREATE PROCEDURE insertRol
 AS
 BEGIN
     BEGIN TRY
         INSERT INTO Roles (rol)
-        VALUES ('Paciente'), ('M�dico');
+        VALUES ('Paciente'), ('MÃ©dico');
 
         PRINT 'Roles creados correctamente.';
     END TRY
@@ -13,4 +13,6 @@ BEGIN
     END CATCH
 END;
 GO
+
+
 

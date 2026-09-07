@@ -1,4 +1,4 @@
-USE [tuSanatorio]
+﻿USE [tuSanatorio]
 GO
 SET ANSI_NULLS ON
 GO
@@ -16,3 +16,5 @@ BEGIN
     JOIN Usuarios u ON p.id_usuario = u.id_usuario
     WHERE u.username = @dni;
 END
+
+

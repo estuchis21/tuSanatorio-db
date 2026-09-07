@@ -1,4 +1,4 @@
-USE [tuSanatorio]
+﻿USE [tuSanatorio]
 GO
 SET ANSI_NULLS ON
 GO
@@ -30,3 +30,5 @@ BEGIN
     WHERE u.dni = @dni
     ORDER BY h.fecha_registro DESC;
 END
+
+

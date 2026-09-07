@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE CheckTurnoAsignado
+﻿CREATE OR ALTER PROCEDURE CheckTurnoAsignado
 	@id_turno_asignado int
 	as 
 	begin
@@ -6,3 +6,4 @@ CREATE OR ALTER PROCEDURE CheckTurnoAsignado
 
 	end
 	go
+

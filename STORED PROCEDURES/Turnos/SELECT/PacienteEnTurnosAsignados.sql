@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE PacienteEnTurnosAsignados
+﻿CREATE OR ALTER PROCEDURE PacienteEnTurnosAsignados
 	@id_paciente int
 	
 	as 
@@ -7,3 +7,4 @@ CREATE OR ALTER PROCEDURE PacienteEnTurnosAsignados
 	end
 	go
 	
+

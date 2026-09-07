@@ -1,4 +1,4 @@
-CREATE OR ALTER Procedure IdPaciente_IdTurnoAsignado
+﻿CREATE OR ALTER Procedure IdPaciente_IdTurnoAsignado
 	@id_paciente int,
 	@id_turno_asignado int
 
@@ -8,3 +8,4 @@ CREATE OR ALTER Procedure IdPaciente_IdTurnoAsignado
 
 	end
 	go
+

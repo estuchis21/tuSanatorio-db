@@ -1,4 +1,4 @@
-CREATE PROCEDURE getEspecialidadesPorMédico
+ï»¿CREATE PROCEDURE getEspecialidadesPorMedico
 @id_medico int
 
 as
@@ -12,3 +12,6 @@ begin
 
 end
 go
+
+
+

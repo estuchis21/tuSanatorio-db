@@ -1,4 +1,4 @@
-create or alter procedure checkDobleTurno
+﻿create or alter procedure checkDobleTurno
 
 @id_medico int,
 @id_rango int, 
@@ -14,3 +14,4 @@ begin
 
 end
 go
+

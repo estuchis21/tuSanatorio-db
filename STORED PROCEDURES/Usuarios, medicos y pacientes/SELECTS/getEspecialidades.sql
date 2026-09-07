@@ -1,7 +1,8 @@
-create or alter procedure getEspecialidades
+﻿create or alter procedure getEspecialidades
 as
 begin
 	select * from Especialidades
 
 end
 go
+
