@@ -2,12 +2,12 @@
 -- PostgreSQL database dump
 --
 
-\restrict JFnK9S9RV5DhEnP6NXjKuvVjZhhW19bOtlmI85FvOpG4EIbMyFHsFfM7vaOvnLj
+\restrict SdBmRvVmhTGFYY875olsZqTjXPFqZ1YrfNTdY3A5oTYBSR7lBSO0CevGO0v6tj1
 
 -- Dumped from database version 17.9
 -- Dumped by pg_dump version 17.9
 
--- Started on 2026-09-07 18:31:37
+-- Started on 2026-09-07 18:34:15
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -3586,11 +3586,11 @@ ALTER DEFAULT PRIVILEGES FOR ROLE postgres IN SCHEMA public GRANT ALL ON FUNCTIO
 ALTER DEFAULT PRIVILEGES FOR ROLE postgres IN SCHEMA public GRANT ALL ON TABLES TO "tuSanatorio";
 
 
--- Completed on 2026-09-07 18:31:38
+-- Completed on 2026-09-07 18:34:15
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict JFnK9S9RV5DhEnP6NXjKuvVjZhhW19bOtlmI85FvOpG4EIbMyFHsFfM7vaOvnLj
+\unrestrict SdBmRvVmhTGFYY875olsZqTjXPFqZ1YrfNTdY3A5oTYBSR7lBSO0CevGO0v6tj1
 
